@@ -9,9 +9,21 @@
 	font-style: normal;
 }
 
-html {
-	font-family: 'Spacemono';
-}.color {
+@font-face {
+	font-family: 'castellar';
+	src: url('../fonts/castellar/castellar.tff') format('tff');
+	font-weight: normal;
+	font-style: normal;
 }
-.hex {
+
+@font-face {
+	font-family: 'lucida';
+	src: url('../fonts/lucida_calligraphy/LCALLIG.tff') format('tff'),
+		 url('../fonts/lucida_calligraphy/lucida_calligraphy_italic.ttf') format('tff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html {
+	font-family: 'Spacemono', 'castellar', 'lucida';
 }

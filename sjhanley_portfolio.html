@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sjhanley_portfolio</title>
+    <!-- Bootstrap -->
+    <link href="css/styles.css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+  </head>
+  <style>
+    #body {
+    	background: url("mybackgroundimage.gif") repeat;
+    	}
+    #banner {
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	right: 0;
+    	width: 100%;
+    	height: 100px;
+    	z-index: -1;
+    	background-color: #0035FF;
+    	}
+    #footer {
+    	position: fixed;
+    	bottom:0;
+    	left: 0;
+    	right: 0;
+    	width: 100%;
+    	height: 50px;
+    	background-color: #0035FF;
+    	z-index: 0;
+    	}
+    	
+    .castella{
+    		font: normal normal normal 48px/100px castellar, castellar;
+    		text-align: center;
+    		color: black;
+    	}
+    	
+   	.lucida{
+    		font: 18px LCALLIG, lucida;
+    		text-align: left;
+    		color: black;
+    	}
+    	
+    	body {margin:0;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9E7500;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: Black;
+    text-align: center;
+    padding: 1px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #FFCD40;
+}
+    	
+  </style>
+  <body style="background-color: #24283A">
+
+  	<div class="row">
+  		<div id=banner class="col-md-12; castella">
+  			<font></font>STEPHEN HANLEY
+  		</div>
+  	</div>
+  	<div class="container-fluid" style="margin-top:100px">
+		<div class="row" style="background-color:#FFCD40; height:auto; font: 18px castellar castellar; text-align: center">
+
+			  	<ul>
+  <li><a class="active" href="#home">HOME</a></li>
+  <li><a href="#news">PORTFOLIO</a></li>
+  <li><a href="#contact">ABOUT ME</a></li>
+</ul>
+		</div>
+		<div class="row" style="margin:25px 25px 25px 25px">
+			<div class="col-sm-7" style="background-color:#9E7500; margin-bottom:25px">
+				<div class="row" style="background-color:#FFCD40; margin-bottom:25px">
+					<div style="margin:5px 5px 5px 5px">
+						<img class="img-responsive" src="images/Banner_crop.jpg">
+					</div>
+				</div>
+				<p class="lucida">
+					Welcome
+				</p>
+			</div>
+			<div class="col-sm-1"></div>
+			<div class="col-sm-4" style="background-color:#9E7500">
+				<div class="row" style="background-color:#FFCD40; margin:0px 20px 20px 20px; position:relative; top:30px">
+					<div style="margin:5px 5px 5px 5px">
+						<img class="img-responsive" src="images/profile_pic.JPG">
+					</div>
+				</div>
+				<p style="height:20px"></p>
+				<p class="lucida">
+				It's me
+				</p>
+			</div>
+		</div>
+		<div class="row" style="height:50px"></div>
+	</div>
+
+   	<div id=footer></div>
+  	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+	<script src="js/bootstrap.js"></script>
+	</body>
+</html>
